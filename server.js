@@ -19,7 +19,8 @@ mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
-
+// Transactions being stored in mongoDb set up here
+// connect to Robo3T to view all transactions
 // routes
 app.use(require("./routes/api.js"));
 
